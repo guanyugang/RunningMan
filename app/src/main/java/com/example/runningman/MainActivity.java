@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         ButterKnife.bind(this);
 
         mTabViews.add(mTabWeixin);
+
         mTabViews.add(mTabContact);
         mTabViews.add(mTabFind);
         mTabViews.add(mTabProfile);
